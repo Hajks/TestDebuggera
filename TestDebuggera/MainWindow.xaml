@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBlock x:Name="output" HorizontalAlignment="Center" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center"/>
+        <Button Content="Button" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Click="Button_Click" Margin="0,50,0,0"/>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24"><Run Text="Testing operators with debugger"/><LineBreak/><Run/></TextBlock>
+
     </Grid>
 </Window>
